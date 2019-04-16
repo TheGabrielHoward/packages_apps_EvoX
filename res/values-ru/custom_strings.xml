@@ -309,8 +309,8 @@
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика (добавит маленькую задержку в одиночное нажатие)</string>
     <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания для включения фонарика</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_title">Разблокировка отпечатком пальцев</string>
+    <string name="fp_unlock_keystore_summary">Разблокировать устройство отпечатком пальца после перезагрузки без PIN-кода/пароля/графического ключа\nПримечание: на свой страх и риск!</string>
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Настройки шрифта часов</string>
     <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
@@ -373,15 +373,15 @@
     <string name="sensor_block_title">Sensor block per-package</string>
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_fragment_title">Volume steps</string>
-    <string name="volume_steps_summary">Customize volume steps</string>
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Уровень громкости: Мультимедиа</string>
-    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
-    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
-    <string name="volume_steps_system_title">Уровень громкости: Система</string>
-    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_fragment_title">Шаги громкости</string>
+    <string name="volume_steps_summary">Настроить шаги громкости</string>
+    <string name="volume_steps_alarm_title">Шаг громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Шаг громкости: DTMF</string>
+    <string name="volume_steps_music_title">Шаг громкости: Мультимедиа</string>
+    <string name="volume_steps_notification_title">Шаг громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Шаг громкости: Звонок</string>
+    <string name="volume_steps_system_title">Шаг громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Шаг громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сбросить</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
@@ -493,7 +493,7 @@
     <string name="spinner_state_time_title">Time</string>
     <string name="total_time">Total</string>
     <string name="wakelock_time">Wakelocks</string>
-    <string name="copy_as_text">Copy as text</string>
+    <string name="copy_as_text">Копировать как текст</string>
     <string name="google_it">Google for it</string>
     <string name="app_details">App details</string>
     <string name="no_stat_because_reset_state">Press reset to start collecting time in state data</string>
@@ -503,9 +503,9 @@
         compatible?\n\nIf you are running a custom ROM or kernel, try 
         contacting its developer to inform him that the states file is not 
         readable.</string>
-    <string name="deep_sleep">"Deep Sleep"</string>
-    <string name="mt_refresh">Refresh</string>
-    <string name="mt_share">Share</string>
+    <string name="deep_sleep">"Глубокий сон"</string>
+    <string name="mt_refresh">Обновить</string>
+    <string name="mt_share">Поделиться</string>
     <string name="mt_reset">Reset</string>
     <string name="time_in_state_title">Time in state</string>
     <string name="time_in_state_summary">Показывать статистику частоты процессора</string>
@@ -523,12 +523,12 @@
     <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
     <string name="recents_clear_all_location_title">Clear all location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Скрыть приложения из недавних</string>
     <string name="hide_from_recents_add_app">Add App</string>
@@ -661,6 +661,7 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки панели навигации</string>
     <string name="navbar_tuner_summary">Настройка кнопок, отображаемых на панели навигации</string>
+    <string name="button_settings_summary">Enable Navbar, One-handed mode, customize HW keys</string>
     <!-- StatusBar -->
     <string name="statusbar_settings_category">Status Bar</string>
     <string name="use_old_mobiletype_title">Use old mobile type style</string>
