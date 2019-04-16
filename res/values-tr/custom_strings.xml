@@ -661,6 +661,7 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Gezinme çubuğu tuşları</string>
     <string name="navbar_tuner_summary">Gezinme çubuğu üzerinde görüntülenen tuşları özelleştirin</string>
+    <string name="button_settings_summary">Enable Navbar, One-handed mode, customize HW keys</string>
     <!-- StatusBar -->
     <string name="statusbar_settings_category">Durum çubuğu</string>
     <string name="use_old_mobiletype_title">Eski ağ tipi simgesi</string>
